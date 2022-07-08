@@ -63,7 +63,7 @@ setup(
     author="Ferreira Juan David",
     author_email="juandavid9a0@gmail.com",
     url="https://github.com/juniors90/Flask-NameExtension",
-    packages=["flask_naameextension"],
+    packages=["flask_nameextension"],
     include_package_data=True,
     platforms="any",
     license="The MIT License",
