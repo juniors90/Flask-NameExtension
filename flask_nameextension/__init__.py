@@ -13,7 +13,7 @@
 
 """Flask-NameExtension.
 
-Implementation of NameExtension in Flask.
+An implementation of NameExtension in Flask.
 """
 
 # =============================================================================

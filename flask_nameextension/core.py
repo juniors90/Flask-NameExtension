@@ -70,18 +70,18 @@ class NameExtension(object):
         app.jinja_env.globals["raise"] = raise_helper
         app.jinja_env.add_extension("jinja2.ext.do")
 
-        def hello(self, world):
-            """The method example
+    def hello(self, world):
+        """The method example
 
-            Parameters
-            ----------
-            world : str
-                Some string.
+        Parameters
+        ----------
+        world : str
+            Some string.
 
-            Return
-            ------
-            hello_world : str
-                A string given by "Hello <world>".
-            """
-            hello_world = f"Hello {world}!!"
-            return hello_world
+         Return
+        ------
+        hello_world : str
+            A string given by "Hello <world>".
+        """
+        hello_world = f"Hello {world}!!"
+        return hello_world
